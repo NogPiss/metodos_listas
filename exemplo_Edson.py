@@ -40,24 +40,28 @@ print(lista)
 
 print("------------------------------------------")
 
+print("index")
 lista = [22, 57.7, "logica"]
 indice = lista.index("logica")
 print(f"Índice = {indice}")
 
 print("------------------------------------------")
 
+print("cont")
 lista = [22,22,57.7,"logica"]
 qtd = lista.count(90)
 print(f"Quantidade = {qtd}")
 
 print("------------------------------------------")
 
+print("len")
 lista =[22,22,57.7,"logica"]
 qtd_elementos = len(lista)
 print(f"Quantidade = {qtd_elementos}")
 
 print("------------------------------------------")
 
+print("sum")
 lista = [19,4,25,33,-5]
 print(sum(lista))
 
